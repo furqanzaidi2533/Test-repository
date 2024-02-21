@@ -53,9 +53,9 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
             Toast.makeText(this, "toast 1", Toast.LENGTH_SHORT).show()
             Toast.makeText(this, "toast 2 in bug fixing branch",Toast.LENGTH_SHORT).show()
 
-            ExternalMethods.showToast(,"master toast")
-            ExternalMethods.showToast(,"new tech toast")
-            ExternalMethods.showToast(,"alpha toast")
+            ExternalMethods.showToast(this,"master toast")
+            ExternalMethods.showToast(this,"new tech toast")
+            ExternalMethods.showToast(this,"alpha toast")
 
         }
     }
