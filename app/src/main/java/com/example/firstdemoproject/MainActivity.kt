@@ -52,8 +52,12 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
             Log.d("de_file", "initViews: ${statusFolder?.listFiles()?.size}")
             Toast.makeText(this, "toast 1", Toast.LENGTH_SHORT).show()
             Toast.makeText(this, "toast 2 in bug fixing branch",Toast.LENGTH_SHORT).show()
+<<<<<<< HEAD
             ExternalMethods.showToast(this,"master toast")
             ExternalMethods.showToast(this,"new tech toast")
+=======
+            ExternalMethods.showToast(this,"alpha toast")
+>>>>>>> alpha
         }
     }
 
