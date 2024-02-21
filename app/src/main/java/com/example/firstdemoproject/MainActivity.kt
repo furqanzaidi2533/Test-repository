@@ -50,7 +50,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
 //            val documentFile = uriParse?.let { it1 -> DocumentFile.fromTreeUri(this, it1) }
             val statusFolder = documentFile?.findFolder(".Statuses")
             Log.d("de_file", "initViews: ${statusFolder?.listFiles()?.size}")
-
+            Toast.makeText(this, "toast 1", Toast.LENGTH_SHORT).show()
         }
     }
 
