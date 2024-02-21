@@ -56,6 +56,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
             ExternalMethods.showToast(this,"master toast")
             ExternalMethods.showToast(this,"new tech toast")
             ExternalMethods.showToast(this,"alpha toast")
+            ExternalMethods.showToast(this,"pull code")
 
         }
     }
